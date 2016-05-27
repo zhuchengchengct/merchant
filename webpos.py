@@ -3,7 +3,7 @@ from selenium import webdriver
 
 page=webdriver.Ie()
 page.get('https://webpos.boccfc.cn:8080/login-auth.jsp')
-page.find_element_by_id('authUserInfoPo.userCode').send_keys('BMS_SH_XK005')
+page.find_element_by_id('authUserInfoPo.userCode').send_keys('')
 page.find_element_by_id('authUserInfoPo.userPwd').send_keys('')
 page.find_element_by_name('image').click()
 
